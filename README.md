@@ -1,4 +1,4 @@
-# KMeans-Web-App
+# K-Means Web App
 An interactive tool to run and visualize the K-Means algorithm on a desired image.
 
 ### How to Use:
@@ -12,5 +12,6 @@ An interactive tool to run and visualize the K-Means algorithm on a desired imag
 7. Click "Save" to download the generated image, or click "Reset" to remove the images and clear the screen.
 
 A sample image and its resulting image are provided in the Images folder for your convenience.
+
 Note: Using larger K-values or large images can cause the algorithm to take longer to run.
 
