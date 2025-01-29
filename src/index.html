@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K-Means Image Clustering</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>K-Means Image Clustering</h1>
+    <div class="input-section">
+      <label for="imageUpload">Upload an Image:</label>
+      <input type="file" id="imageUpload" accept="image/*">
+    </div>
+
+    <div class="input-section">
+      <label for="kValue">Enter K Value:</label>
+      <input type="number" id="kValue" min="1" placeholder="Number of clusters (K)">
+    </div>
+    
+    <div class="input-section">
+      <button id="processButton">Process </button>
+    </div>
+
+    
+    <div class="output-section">
+      <h2>Original Image:</h2>
+      <canvas id="originalCanvas"></canvas>
+      
+      <h2>Clustered Image:</h2>
+      <canvas id="clusteredCanvas"></canvas>
+    </div>
+
+    <button id="resetButton">Reset</button>
+    <button id="saveButton" disabled>Save</button>
+
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
